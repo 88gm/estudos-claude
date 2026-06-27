@@ -1,0 +1,17 @@
+[
+  {
+    "task": "Parse an AWS CloudWatch log entry and extract the timestamp, log level, and message using a regular expression",
+    "format": "regex",
+    "solution_criteria": "The regex must correctly capture three groups: timestamp (ISO 8601 format), log level (ERROR, WARN, INFO, DEBUG), and the remaining message text. Should work with logs like '2024-01-15T10:30:45Z ERROR Failed to connect to RDS instance'"
+  },
+  {
+    "task": "Create a JSON policy document that allows an IAM user to read objects from a specific S3 bucket named 'my-data-bucket'",
+    "format": "json",
+    "solution_criteria": "Must be valid JSON with proper IAM policy structure including Version, Statement array, Effect, Action, and Resource fields. Should grant s3:GetObject permission specifically for the bucket 'my-data-bucket' and its objects"
+  },
+  {
+    "task": "Write a Python function that takes an AWS EC2 instance ID and returns True if the instance ID matches the standard AWS format, False otherwise",
+    "format": "python",
+    "solution_criteria": "Function should validate that the instance ID follows AWS EC2 naming convention (starts with 'i-' followed by 17 alphanumeric characters). Should handle edge cases like None, empty strings, and incorrectly formatted IDs"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "prompt_inputs": {
+      "height": "178 cm",
+      "weight": "85 kg",
+      "goal": "Build muscle mass with caloric surplus for strength training",
+      "restrictions": "None"
+    },
+    "solution_criteria": [
+      "Meal plan covers 3+ meals distributed throughout the day",
+      "Total daily protein intake is at least 1.7g per kg of body weight (\u2265145g)",
+      "Plan creates a caloric surplus appropriate for muscle building (2,800-3,200 calories estimated)",
+      "All meals are specific and realistic for a single day"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a strength/power athlete (weightlifter) emphasizing protein intake and caloric surplus for muscle building"
+  },
+  {
+    "prompt_inputs": {
+      "height": "180 cm",
+      "weight": "70 kg",
+      "goal": "Marathon training day with carbohydrate loading and optimal hydration for endurance performance",
+      "restrictions": "None"
+    },
+    "solution_criteria": [
+      "Meal plan spans exactly 1 day with 4-5 meals/snacks distributed throughout",
+      "Includes high carbohydrate intake (6-10g per kg body weight) appropriate for endurance athlete",
+      "Specifies hydration strategy with fluid and electrolyte recommendations",
+      "Provides approximate calorie and macronutrient breakdown for each meal"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a high-performance endurance athlete (marathon runner) requiring specific carbohydrate loading and hydration strategies"
+  },
+  {
+    "prompt_inputs": {
+      "height": "178 cm",
+      "weight": "71 kg",
+      "goal": "Maintain 71 kg weight class for boxing competition in 3 days while optimizing performance and muscle preservation",
+      "restrictions": "No dairy due to lactose intolerance"
+    },
+    "solution_criteria": [
+      "Meal plan totals approximately 71 kg athlete's maintenance calories while staying within weight class limit",
+      "Includes high protein intake (minimum 1.6g per kg body weight) to preserve muscle during weight management",
+      "All meals are dairy-free and practical for a single day",
+      "Provides balanced macronutrients suitable for boxing training performance"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a sport with strict weight management requirements (boxer or wrestler) balancing nutrition while meeting weight class constraints"
+  }
+]
