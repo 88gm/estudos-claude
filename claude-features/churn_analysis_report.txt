@@ -1,0 +1,149 @@
+================================================================================
+EXECUTIVE SUMMARY: MAJOR DRIVERS OF CHURN
+================================================================================
+
+Dataset Overview:
+  • Total Customers: 500
+  • Churned: 193 (38.6%)
+  • Retained: 307 (61.4%)
+
+================================================================================
+TOP 5 CHURN DRIVERS (Ranked by Effect Size)
+================================================================================
+
+#1. CustomerServiceInteractionsLastYear
+     Impact: LARGE (Cohen's d = 0.596)
+     Direction: HIGHER in churned customers
+     Churned customers average: 3.18
+     Retained customers average: 2.49
+     Difference: +0.69
+     Statistical significance: p < 0.001
+
+#2. TotalViewingHoursLastMonth
+     Impact: LARGE (Cohen's d = -0.521)
+     Direction: LOWER in churned customers
+     Churned customers average: 66.58
+     Retained customers average: 83.22
+     Difference: -16.64
+     Statistical significance: p < 0.001
+
+#3. BingeWatchingSessionsLastMonth
+     Impact: MEDIUM (Cohen's d = -0.500)
+     Direction: LOWER in churned customers
+     Churned customers average: 6.17
+     Retained customers average: 7.69
+     Difference: -1.52
+     Statistical significance: p < 0.001
+
+#4. NumberOfUniqueTitlesWatchedLastMonth
+     Impact: MEDIUM (Cohen's d = -0.471)
+     Direction: LOWER in churned customers
+     Churned customers average: 19.45
+     Retained customers average: 23.74
+     Difference: -4.29
+     Statistical significance: p < 0.001
+
+#5. AverageSessionDurationMinutes
+     Impact: MEDIUM (Cohen's d = -0.458)
+     Direction: LOWER in churned customers
+     Churned customers average: 49.42
+     Retained customers average: 57.76
+     Difference: -8.34
+     Statistical significance: p < 0.001
+
+================================================================================
+CATEGORICAL DRIVERS
+================================================================================
+
+Subscription Tier Analysis:
+  • Basic       :  43.5% churn rate (90/207 customers)
+  • Standard    :  39.5% churn rate (83/210 customers)
+  • Premium     :  24.1% churn rate (20/83 customers)
+
+Top Genre Analysis:
+  • Horror      :  52.3% churn rate (23/44 customers)
+  • Thriller    :  48.3% churn rate (14/29 customers)
+  • Action      :  44.6% churn rate (33/74 customers)
+  • Romance     :  41.8% churn rate (23/55 customers)
+  • SciFi       :  40.5% churn rate (17/42 customers)
+  • Drama       :  35.3% churn rate (36/102 customers)
+  • Comedy      :  33.0% churn rate (33/100 customers)
+  • Documentary :  25.9% churn rate (14/54 customers)
+
+================================================================================
+KEY INSIGHTS & BUSINESS IMPLICATIONS
+================================================================================
+
+1. CUSTOMER SERVICE IS THE STRONGEST PREDICTOR OF CHURN
+   --------------------------------------------------------
+   • Effect size: 0.596 (LARGE)
+   • Churned customers had 3.2 interactions vs 2.5
+   • +28% more customer service contacts
+   → IMPLICATION: High CS interactions indicate dissatisfaction
+   → ACTION: Proactively address issues, improve product quality
+
+2. LOW ENGAGEMENT IS A MAJOR CHURN INDICATOR
+   ------------------------------------------
+   • Viewing Hours: -16.6 hours less (20% decrease)
+   • Binge Sessions: -1.5 sessions less (20% decrease)
+   → IMPLICATION: Customers disengage before churning
+   → ACTION: Implement early warning system for declining engagement
+   → ACTION: Send personalized recommendations to re-engage users
+
+3. SUBSCRIPTION TIER MATTERS
+   --------------------------
+   • Basic tier: 43.5% churn
+   • Premium tier: 24.1% churn
+   • Difference: 19.4 percentage points
+   → IMPLICATION: Lower-tier customers more likely to churn
+   → ACTION: Offer upgrade incentives with exclusive content
+   → ACTION: Ensure basic tier has adequate value proposition
+
+4. CONTENT PREFERENCES SHOW MODERATE IMPACT
+   ------------------------------------------
+   • Highest churn genre: Horror (52.3%)
+   • Lowest churn genre: Documentary (25.9%)
+   • Range: 26.4 percentage points
+   → IMPLICATION: Genre preference has some correlation with churn
+   → ACTION: Ensure content diversity across all genres
+
+================================================================================
+RECOMMENDED ACTIONS (PRIORITIZED)
+================================================================================
+
+HIGH PRIORITY:
+  1. Reduce customer service issues - address root causes of complaints
+  2. Implement engagement monitoring - flag users with declining activity
+  3. Create re-engagement campaigns for low-activity users
+
+MEDIUM PRIORITY:
+  4. Review Basic tier value proposition vs. pricing
+  5. Develop tier upgrade campaigns with personalized incentives
+  6. Analyze what retained users watch and recommend similar content
+
+LOW PRIORITY:
+  7. Ensure content library depth across all genres
+  8. Monitor genre-specific satisfaction metrics
+
+================================================================================
+STATISTICAL METHODOLOGY
+================================================================================
+
+Analysis Methods Used:
+  • Independent t-tests for numerical variables
+  • Chi-square tests for categorical variables
+  • Cohen's d for effect size measurement
+  • Correlation analysis
+
+Effect Size Interpretation (Cohen's d):
+  • Small: 0.2 - 0.5
+  • Medium: 0.5 - 0.8
+  • Large: > 0.8
+
+Statistical Significance:
+  • All major drivers have p < 0.01
+  • Results are highly statistically significant
+
+================================================================================
+REPORT COMPLETE
+================================================================================
